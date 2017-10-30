@@ -1,0 +1,63 @@
+body {
+	background-color: #e3dfdb;
+}
+.masthead	{
+	background-color: white;
+	display: block;
+	min-height: 150px;
+	overflow: hidden;
+	position: relative;
+}
+.masthead .tagline	{
+	font-size: 15px;
+	font-family: helvetica;
+	font-weight: 100;
+	line-height: .5em;
+	position: absolute;
+	bottom: 0;
+	left: 120px;
+	text-indent: 0;
+	text-transform: lowercase !important;
+	padding-bottom: 10px;
+}
+.masthead .nav {
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    right: 40px;
+}
+.masthead .nav li 	{
+	display: inline-block;
+}
+ul, ol, p {
+    font-family: "proxima-nova","helvetica","arial","sans";
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    margin: 0 0 1.5em;
+    padding: 0;
+}
+h1 {
+	color: black;
+	font-family:"proxima-nova",sans-serif;
+	letter-spacing: .135em;
+	text-decoration: underline;
+	border-bottom: black;
+	line-height: 1em;
+	padding-bottom: .125em;
+	text-align: center;
+}
+p {
+	font-size: 21px;
+	text-align: center;
+	font-family: "proxima-nova","helvetica","arial","sans";
+}
+.text {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+a {
+	color: black1
+}
+	http://eighthourday.com/studio
