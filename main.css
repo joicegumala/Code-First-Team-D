@@ -1,0 +1,66 @@
+* {
+	font-family: Kohinoor Devanagari;
+	text-align: center;
+	list-style-position: inside;
+}
+h1 {
+	font-family: Kohinoor Devanagari;
+	font-weight: bold;
+}
+ul {
+	padding: 10px;
+}
+ul li {
+	display: inline;
+	padding: 0 10px 0 10px;
+}
+p {
+	background: #004d4d;
+	height: 150px;
+	color: white;
+	font-size: 20px;
+	padding-top: 20px;
+}
+.emailbutton {
+	font-size: 15px;
+}
+.submitbutton {
+	color: black;
+	font-size: 15px;
+}
+.item {
+	max-height: 400px;
+	max-width: 2400px;
+	font-size: 30px;
+}
+.fa {
+    padding: 20px;
+    font-size: 60px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+ }
+ .col-md-4 {
+ 	width: 300px;
+    border: 5px solid #006666;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 45px;
+    height: 120px;
+ }
