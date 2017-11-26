@@ -6,9 +6,14 @@
 h1 {
 	font-family: Kohinoor Devanagari;
 	font-weight: bold;
+	font-size: 50px;
+}
+body {
+    padding: 10px;
 }
 ul {
 	padding: 10px;
+	font-size: 16px;
 }
 ul li {
 	display: inline;
@@ -16,20 +21,21 @@ ul li {
 }
 p {
 	background: #004d4d;
-	height: 150px;
+	height: 120px;
 	color: white;
-	font-size: 20px;
+	font-size: 16px;
 	padding-top: 20px;
 }
 .emailbutton {
 	font-size: 15px;
+	color: black;
 }
 .submitbutton {
 	color: black;
 	font-size: 15px;
 }
 .item {
-	max-height: 400px;
+	max-height: 500px;
 	max-width: 2400px;
 	font-size: 30px;
 }
@@ -64,3 +70,38 @@ p {
     margin: 45px;
     height: 120px;
  }
+ footer #footer_navi ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #827f80;
+    text-align: center;
+}
+
+footer #footer_navi {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+}
+
+footer #footer_navi li {
+    display: inline;
+    border-left: solid 1px #333;
+    margin-left: 8px;
+    padding-left: 8px;
+    font-size: smaller;
+}
+
+footer #footer_navi li:last-child {
+    border-right: solid 1px #333;
+    padding: 0 8px;
+}
+
+footer small {
+    display: inline-block;
+    padding: 8px 0;
+    color: #fff;
+}

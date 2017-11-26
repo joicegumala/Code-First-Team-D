@@ -1,63 +1,75 @@
-body {
-	background-color: #e3dfdb;
-}
-.masthead	{
-	background-color: white;
-	display: block;
-	min-height: 150px;
-	overflow: hidden;
-	position: relative;
-}
-.masthead .tagline	{
-	font-size: 15px;
-	font-family: helvetica;
-	font-weight: 100;
-	line-height: .5em;
-	position: absolute;
-	bottom: 0;
-	left: 120px;
-	text-indent: 0;
-	text-transform: lowercase !important;
-	padding-bottom: 10px;
-}
-.masthead .nav {
-    display: inline-block;
-    position: absolute;
-    bottom: 15px;
-    right: 40px;
-}
-.masthead .nav li 	{
-	display: inline-block;
-}
-ul, ol, p {
-    font-family: "proxima-nova","helvetica","arial","sans";
-    font-size: 15px;
-    font-weight: 300;
-    letter-spacing: 0.02em;
-    line-height: 1.5em;
-    margin: 0 0 1.5em;
-    padding: 0;
+* {
+	font-family: Kohinoor Devanagari;
+	text-align: center;
 }
 h1 {
-	color: black;
-	font-family:"proxima-nova",sans-serif;
-	letter-spacing: .135em;
-	text-decoration: underline;
-	border-bottom: black;
-	line-height: 1em;
-	padding-bottom: .125em;
-	text-align: center;
+	font-family: Kohinoor Devanagari;
+	font-weight: bold;
+	font-size: 50px;
 }
-p {
-	font-size: 21px;
-	text-align: center;
-	font-family: "proxima-nova","helvetica","arial","sans";
+h2 {
+	font-family: Kohinoor Devanagari;
+	font-size: 20px;
+}
+body {
+    padding: 10px;
+}
+ul {
+	padding: 10px;
+	font-size: 16px;
+}
+ul li {
+	display: inline;
+	padding: 0 10px 0 10px;
 }
 .text {
+	margin: auto;
+	font-size: 16px;
 	padding-left: 100px;
 	padding-right: 100px;
+	background: #004d4d;
+	color: white;
+	height: 250px;
 }
-a {
-	color: black1
+.img-circle {
+	border-radius: 50%;
+	width: 300px;
 }
-	http://eighthourday.com/studio
+.namebio {
+	font-size: 16px;
+}
+footer #footer_navi ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #827f80;
+    text-align: center;
+}
+
+footer #footer_navi {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+}
+
+footer #footer_navi li {
+    display: inline;
+    border-left: solid 1px #333;
+    margin-left: 8px;
+    padding-left: 8px;
+    font-size: smaller;
+}
+
+footer #footer_navi li:last-child {
+    border-right: solid 1px #333;
+    padding: 0 8px;
+}
+
+footer small {
+    display: inline-block;
+    padding: 8px 0;
+    color: #fff;
+}
